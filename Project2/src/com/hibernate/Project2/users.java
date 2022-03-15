@@ -18,6 +18,9 @@ public class users {
 		this.users_lname = users_lname;
 		this.users_email = users_email;
 	}
+	public users() {
+		
+	}
 	@Id
 	@Column(name = "users_id")
 	int users_id;
