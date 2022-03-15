@@ -8,6 +8,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "users")
 public class users {
+	public class user{
+		
+	}
 	public users(int users_id, String users_fname, String users_lname, String users_email) {
 		super();
 		this.users_id = users_id;
